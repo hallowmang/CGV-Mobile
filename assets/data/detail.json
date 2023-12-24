@@ -1,0 +1,156 @@
+{
+  "detailInfo": [
+    {
+      "id": 0,
+      "detailTitle":"그대들은 어떻게 살것인가?",
+      "slider":{
+        "video":"http://h.vod.cgv.co.kr:80/vodCGVa/87433/87433_219323_1200_128_960_540.mp4",
+        "img1":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433220019_727.jpg",
+        "img2":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433219262_727.jpg",
+        "img3":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433219261_727.jpg",
+        "img4":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433219259_727.jpg",
+        "img5":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433219256_727.jpg"
+      },
+      "poster":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87433/87433_150.jpg",
+      "movieTitle":"그대들은 어떻게 살 것인가",
+      "enTitle":"(Sub.)The Boy and the Heron",
+      "openDate":"2023.10.25개봉",
+      "runningTime":"2시간 4분",
+      "genre":"애니메이션",
+      "distributor":"메가박스중앙(주)",
+      "rated":"전체관람가",
+      "screenType":null,
+      "ticket":{
+      "Sales":"예매율1위",
+      "Percent":"65%"
+      },
+      "preEgg":"99",
+      "goldenEgg":"74",
+      "synopsis":{
+        "synopsis1":"화재로 어머니를 잃은 11살 소년 ‘마히토’는 아버지와 함께 어머니의 고향으로 간다.",
+        "synopsis2":"어머니에 대한 그리움과 새로운 보금자리에 적응하느라 힘들어하던 ‘마히토’ 앞에 정체를 알 수 없는 왜가리 한 마리가 나타나고,"
+      },
+      "synopsisAccordion":{
+        "synopsisAccordion1":"저택에서 일하는 일곱 할멈으로부터 왜가리가 살고 있는 탑에 대한 신비로운 이야기를 듣게 된다.",
+        "synopsisAccordion2":"그러던 어느 날, ‘마히토’는 사라져버린 새엄마 ‘나츠코’를 찾기 위해 탑으로 들어가고,",
+        "synopsisAccordion3":"왜가리가 안내하는 대로 이세계(異世界)의 문을 통과하는데…!"
+      },
+      "eventBanner":"[그대들은 어떻게 살 것인가] 현장 이벤트",
+      "viewerCount":"1,903,093",
+      "chartDate":"2023.11.22기준",
+      "gender":{
+        "man":"39",
+        "woman":"61"
+      },
+      "ageGroup":{
+        "10":"12",
+        "20":"44",
+        "30":"22",
+        "40":"14",
+        "50":"19"
+      },
+      "actorsImg":{
+        "img1":"./assets/images/person1.jpg",
+        "img2":"./assets/images/person2.jpg",
+        "img3":"./assets/images/person3.jpg",
+        "img4":"./assets/images/person4.jpg"
+      },
+      "actorsName":{
+        "name1":"미야자키 하야오",
+        "name2":"스다 마사키",
+        "name3":"기무라 타쿠야",
+        "name4":"아이묭"
+      },
+      "personRole":"감독",
+      "trailer":{
+        "video1":"http://h.vod.cgv.co.kr:80/vodCGVa/87433/87433_219903_1200_128_960_540.mp4",
+        "video2":"http://h.vod.cgv.co.kr:80/vodCGVa/87433/87433_219656_1200_128_960_540.mp4",
+        "video3":"http://h.vod.cgv.co.kr:80/vodCGVa/87433/87433_219323_1200_128_960_540.mp4"
+      },
+      "ad":"https://adimg.cgv.co.kr/images/202310/TheWild/1108_640x200.jpg",
+      "steelCut":{
+        "img1":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433220932_727.jpg",
+        "img2":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433220019_727.jpg",
+        "img3":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433219262_727.jpg",
+        "img4":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433219261_727.jpg",
+        "img5":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87433/87433219260_727.jpg"
+      }
+    },
+    {
+      "id": 1,
+      "detailTitle":"바람 따라 만나리:김호중의 계절",
+      "slider":{
+        "video":null,
+        "img1":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219124_727.jpg",
+        "img2":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219123_727.jpg",
+        "img3":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219122_727.jpg",
+        "img4":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219121_727.jpg",
+        "img5":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219120_727.jpg"
+      },
+      "poster":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87422/87422_150.jpg",
+      "movieTitle":"바람 따라 만나리:김호중의 계절",
+      "enTitle":"바람 따라 만나리:김호중의 계절",
+      "openDate":"2023.10.18개봉",
+      "runningTime":"1시간 47분",
+      "genre":"다큐멘터리",
+      "distributor":"씨제이포디플렉스",
+      "rated":"전체관람가",
+      "screenType":"https://img.cgv.co.kr/WebApp/images/main/@3x/ico_screenType2.png",
+      "ticket":{
+      "Sales":"예매율",
+      "Percent":"0.4%"
+      },
+      "preEgg":"91",
+      "goldenEgg":"99",
+      "synopsis":{
+        "synopsis1":"3개월간 전국 6개 도시에서 10만 아리스와 함께했던",
+        "synopsis2":"김호중의 첫 전국 투어 콘서트, 아리스트라!"
+      },
+      "synopsisAccordion":{
+        "synopsisAccordion1":"제대 후 일년간 쉬지 않고 달려온 김호중이 지친 몸과 마음을 달래기 위해 떠난 여행",
+        "synopsisAccordion2":"대규모 오케스트라와 김호중의 천상의 목소리, 그리고 아리스의 환호가 공연장을 가득 채웠던 감동적인 콘서트 장면과",
+        "synopsisAccordion3":"고군산도의 눈부신 풍경을 따라 여행하는 김호중의 행복한 순간이 스크린X 파노라마 뷰로 펼쳐진다."
+      },
+      "eventBanner":"[바람 따라 만나리:김호중의 계절] 릴레이싱어롱 상영회",
+      "viewerCount":"54,783",
+      "chartDate":"2023.11.23기준",
+      "gender":{
+        "man":"17",
+        "woman":"83"
+      },
+      "ageGroup":{
+        "10":"0",
+        "20":"7",
+        "30":"16",
+        "40":"19",
+        "50":"57"
+      },
+      "actorsImg":{
+        "img1":"https://image.cine21.com/resize/cine21/person/2022/1115/14_17_21__637320e1b6fbd[X120,150].jpg",
+        "img2":"https://image.cine21.com/resize/cine21/movie/2022/0826/11_07_02__63082ac6dd7cc[X120,150].jpg",
+        "img3":null,
+        "img4":null
+      },
+      "actorsName":{
+        "name1":"오윤동",
+        "name2":"김호중",
+        "name3":null,
+        "name4":null
+      },
+      "personRole":"감독",
+      "trailer":{
+        "video1":null,
+        "video2":null,
+        "video3":null
+      },
+      "ad":"https://adimg.cgv.co.kr/images/202310/TheWild/1108_640x200.jpg",
+      "steelCut":{
+        "img1":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219124_727.jpg",
+        "img2":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219123_727.jpg",
+        "img3":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219122_727.jpg",
+        "img4":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219121_727.jpg",
+        "img5":"https://img.cgv.co.kr/Movie/Thumbnail/StillCut/000087/87422/87422219120_727.jpg"
+      }
+    }
+  ]
+} 

@@ -1,0 +1,373 @@
+{
+  "chartList": [
+    {
+      "id": 0,
+      "age": "All",
+      "cgvOnly": false,
+      "rank": 1,
+      "thumbNail": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87433/87433_320.jpg",
+      "type": {
+        "iMax": true,
+        "4DX": false,
+        "screenX": false
+      },
+      "title": "그대들은 어떻게 살 것인가",
+      "rate": {
+        "adv": "26.9%",
+        "egg": "99%"
+      },
+      "view": null,
+      "dDay": "D-7"
+    },
+    {
+      "id": 1,
+      "age": "All",
+      "cgvOnly": true,
+      "rank": 2,
+      "thumbNail": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87422/87422_320.jpg",
+      "type": {
+        "iMax": false,
+        "4DX": false,
+        "screenX": true
+      },
+      "title": "바람 따라 만나리 : 김호중의 계절",
+      "rate": {
+        "adv": "13.0%",
+        "egg": "92%"
+      },
+      "view": "170",
+      "dDay": null
+    },
+    {
+      "id": 3,
+      "age": "18",
+      "cgvOnly": false,
+      "rank": 3,
+      "thumbNail": "https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87444/87444_320.jpg",
+      "type": {
+        "iMax": false,
+        "4DX": false,
+        "screenX": false
+      },
+      "title": "플라워 킬링 문",
+      "rate": {
+        "adv": "9.3%",
+        "egg": "50%"
+      },
+      "view": null,
+      "dDay": "D-1"
+    }
+  ],
+  "currentList":[
+    {
+      "id":0,
+      "age":"All",
+      "cgvOnly":true,
+      "rank":1,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87422/87422_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":true
+      },
+      "title":"바람 따라 만나리 : 김호중의 계절",
+      "rate":{
+        "adv":"13.1%",
+        "egg":"92%"
+      },
+      "view":170,
+      "dDay":null
+    },
+    {
+      "id":1,
+      "age":"18",
+      "cgvOnly":false,
+      "rank":2,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87358/87358_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"익스펜더블 4",
+      "rate":{
+        "adv":"8.9%",
+        "egg":"99%"
+      },
+      "view":3424,
+      "dDay":null
+    },
+    {
+      "id":2,
+      "age":"12",
+      "cgvOnly":false,
+      "rank":3,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87407/87407_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"30일",
+      "rate":{
+        "adv":"5.8%",
+        "egg":"93%"
+      },
+      "view":"128만",
+      "dDay":null
+    },
+    {
+      "id":3,
+      "age":"All",
+      "cgvOnly":true,
+      "rank":4,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87500/87500_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"팀 버튼의 크리스마스 악몽",
+      "rate":{
+        "adv":"3.4%",
+        "egg":"99%"
+      },
+      "view":"5.4만",
+      "dDay":null
+    }
+  ],
+  "iceconList":[
+    {
+      "id":0,
+      "age":"All",
+      "cgvOnly":true,
+      "rank":1,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87422/87422_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":true
+      },
+      "title":"바람 따라 만나리 : 김호중의 계절",
+      "rate":{
+        "adv":"13.1%",
+        "egg":"92%"
+      },
+      "view":170,
+      "dDay":null
+    },
+    {
+      "id":1,
+      "age":"12",
+      "cgvOnly":true,
+      "rank":2,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87188/87188_20230828_0_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"[씨네뮤지엄 Season2.] 루브르 박물관",
+      "rate":{
+        "adv":"0.1%",
+        "egg":"?"
+      },
+      "view":"?",
+      "dDay":null
+    },
+    {
+      "id":2,
+      "age":"All",
+      "cgvOnly":true,
+      "rank":3,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87437/87437_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"[콘서트&다이닝]고흐의 별이 빛나는 밤",
+      "rate":{
+        "adv":"0.1%",
+        "egg":"?"
+      },
+      "view":null,
+      "dDay":"D-3"
+    },
+    {
+      "id":3,
+      "age":"12",
+      "cgvOnly":true,
+      "rank":4,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87189/87189_20230828_0_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"[씨네뮤지엄 Season2.] 오르세 미술관",
+      "rate":{
+        "adv":"0.1%",
+        "egg":"?"
+      },
+      "view":"?",
+      "dDay":null
+    }
+  ],
+  "artList":[
+    {
+      "id":0,
+      "age":"12",
+      "cgvOnly":false,
+      "rank":1,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000085/85672/85672_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"라라랜드",
+      "rate":{
+        "adv":"0.1%",
+        "egg":"99%"
+      },
+      "view":"378만",
+      "dDay":null
+    },
+    {
+      "id":1,
+      "age":"All",
+      "cgvOnly":false,
+      "rank":2,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87434/87434_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"람빅, 시간과 열정의 맥주",
+      "rate":{
+        "adv":"0.1%",
+        "egg":"?"
+      },
+      "view":"2,025",
+      "dDay":null
+    },
+    {
+      "id":2,
+      "age":"12",
+      "cgvOnly":false,
+      "rank":3,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87331/87331_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"킴스 비디오",
+      "rate":{
+        "adv":"0.1%",
+        "egg":"94%"
+      },
+      "view":"9,285",
+      "dDay":null
+    },
+    {
+      "id":3,
+      "age":"12",
+      "cgvOnly":false,
+      "rank":4,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87211/87211_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"여덟 개의 산",
+      "rate":{
+        "adv":null,
+        "egg":"98%"
+      },
+      "view":"1.2만",
+      "dDay":null
+    }
+  ],
+  "onlyList":[
+    {
+      "id":0,
+      "age":"All",
+      "cgvOnly":true,
+      "rank":1,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87500/87500_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"팀 버튼의 크리스마스 악몽",
+      "rate":{
+        "adv":"3.2%",
+        "egg":"?"
+      },
+      "view":"5.4만",
+      "dDay":null
+    },
+    {
+      "id":1,
+      "age":"15",
+      "cgvOnly":true,
+      "rank":2,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87438/87438_20231012_0_320.gif",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"오픈 더 도어",
+      "rate":{
+        "adv":"2.9%",
+        "egg":"98%"
+      },
+      "view":null,
+      "dDay":"D-7"
+    },
+    {
+      "id":2,
+      "age":"15",
+      "cgvOnly":true,
+      "rank":3,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87355/87355_20231006_0_320.gif",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"사나-저주의 아이",
+      "rate":{
+        "adv":"1.7%",
+        "egg":"61%"
+      },
+      "view":"7만",
+      "dDay":null
+    },
+    {
+      "id":3,
+      "age":"12",
+      "cgvOnly":true,
+      "rank":4,
+      "thumbNail":"https://img.cgv.co.kr/Movie/Thumbnail/Poster/000087/87305/87305_320.jpg",
+      "type":{
+        "iMax":false,
+        "4DX":false,
+        "screenX":false
+      },
+      "title":"화사한 그녀",
+      "rate":{
+        "adv":"1.4%",
+        "egg":"67%"
+      },
+      "view":"6.8만",
+      "dDay":null
+    }
+  ]
+} 

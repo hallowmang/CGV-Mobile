@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>movieDetail</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- 스와이퍼 -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- 제이쿼리 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script defer src="./assets/js/main.js"></script>
+  <script defer src="./assets/js/detail.js"></script>
+  <script defer src="./assets/js/data.js"></script>
+</head>
+<body>
+  <div class="detail-fixed">
+    <div class="fix-left-group">
+      <div class="expect-box"><a href=""></a></div>
+      <div class="share-box"><a href=""></a></div>
+    </div>
+    <div class="fix-right-group">
+      <a href="">지금예매</a>
+    </div>
+  </div>
+
+  <header class="detail-header">
+    <a href="" class="menu-icon">
+      <i class="ic-menu"></i>
+    </a>
+    <div class="detail-title">
+      그대들은 어떻게 살 것인가
+    </div>
+  </header>
+
+  <main class="detail-main">
+    <section class="sc-detailinfo">
+      <div class="detail-slide-group">
+        <div class="swiper detail-slide">
+          <div class="swiper-wrapper">
+            <!-- 비디오 -->
+            <div class="swiper-slide">
+              <div class="video-box">
+                <video video_mtype="main_hotdeal" class="detail-video" preload="none" poster="https://img.cgv.co.kr/Movie/Thumbnail/Trailer/87433/87433219323_1024.jpg" controlslist="nodownload" playsinline="" webkit-playsinline="">
+                  <source src="./assets/videos/detail-video.mp4" type="video/mp4">
+                  <!-- <p>video를 지원하지 않는 브라우저입니다.</p> -->
+                </video>
+                <img src="./assets/images/detail-thumbnail.jpg" alt="detail-thumbnail">
+              </div>
+            </div>
+            <!-- 이미지 -->
+            <div class="swiper-slide">
+              <div class="detail-img-wrap">
+                <div class="detail-img-box">
+                  <img src="./assets/images/detail-img1.jpg" alt="detail-img1">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="detail-img-wrap">
+                <div class="detail-img-box">
+                  <img src="./assets/images/detail-img2.jpg" alt="detail-img2">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="detail-img-wrap">
+                <div class="detail-img-box">
+                  <img src="./assets/images/detail-img3.jpg" alt="detail-img3">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="detail-img-wrap">
+                <div class="detail-img-box">
+                  <img src="./assets/images/detail-img4.jpg" alt="detail-img4">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="detail-img-wrap">
+                <div class="detail-img-box">
+                  <img src="./assets/images/detail-img5.jpg" alt="detail-img5">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="detail-img-wrap">
+                <div class="detail-img-box">
+                  <img src="./assets/images/detail-img6.jpg" alt="detail-img6">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="movie-info-group">
+          <div class="poster">
+            <a href="">
+              <img src="./assets/images/detail-poster.jpg" alt="영화 포스터">
+            </a>
+          </div>
+          <div class="movie-info">
+            <strong class="movie-title">그대들은 어떻게 살 것인가</strong>
+            <span class="eng-title">(Sub.)The Boy and the Heron</span>
+            <div class="spec-box">
+              <span class="open-date">2023.10.25개봉</span>
+              <span class="runningtime">2시간 4분</span>
+              <span class="genre">애니메이션</span>
+              <span class="distributor">메가박스중앙(주)</span>
+              <span class="detail-age">전체관람가</span>
+            </div>
+          </div>
+          <ul class="screen-type">
+            <li>
+              <img src="./assets/images/detail-screenType.svg" alt="IMAX">
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="detail-rate-wrap">
+        <ul>
+          <li>
+            <div class="icon-box">
+              <i class="icon ticket"></i>
+            </div>
+            <span class="rate-title">예매율 1위</span>
+            <span class="rate-percent">65</span>
+          </li>
+          <li>
+            <div class="icon-box">
+              <i class="icon pre-egg"></i>
+            </div>
+            <span class="rate-title">PRE EGG</span>
+            <span class="rate-percent">99</span>
+          </li>
+          <li>
+            <div class="icon-box">
+              <i class="icon gold-egg"></i>
+            </div>
+            <span class="rate-title">GOLDEN EGG</span>
+            <span class="rate-percent">?</span>
+            <a href="">
+              <img src="./assets/images/question- mark.png" alt="에그 도움말">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--  -->
+      <div class="detail-synopsis-wrap">
+        <div class="synopsis">
+          화재로 어머니를 잃은 11살 소년 ‘마히토’는 아버지와 함께 어머니의 고향으로 간다.
+          <br>
+          어머니에 대한 그리움과 새로운 보금자리에 적응하느라 힘들어하던 ‘마히토’ 앞에 정체를 알 수 없는 왜가리 한 마리가 나타나고,
+          <br>
+          <div class="synopsis-accordion">
+            저택에서 일하는 일곱 할멈으로부터 왜가리가 살고 있는 탑에 대한 신비로운 이야기를 듣게 된다.
+            <br>
+            그러던 어느 날, ‘마히토’는 사라져버린 새엄마 ‘나츠코’를 찾기 위해 탑으로 들어가고,
+            <br>
+            왜가리가 안내하는 대로 이세계(異世界)의 문을 통과하는데…!
+          </div>
+        </div>
+        <a href="" class="synopsis-more">
+          더보기
+        </a>
+      </div>
+      <!--  -->
+      <div class="swiper detail-event-wrap">
+        <ul class="swiper-wrapper detail-event-list">
+          <li class="swiper-slide detail-event-item">
+            <a href="">
+              <strong>[그대들은 어떻게 <br>살 것인가] 현장 이벤트</strong>
+            </a>
+          </li>
+          <li class="swiper-slide detail-event-item">
+            <a href="">
+              <strong>[그대들은 어떻게 <br>살 것인가] 현장 이벤트2</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+    </section>
+
+    <section class="sc-detail-contents">
+      <ul class="detail-tap-list">
+        <li class="detail-tap-item active">
+          <a href="">
+            <span>상세정보</span>
+          </a>
+        </li>
+        <li class="detail-tap-item">
+          <a href="">
+            <span>관련소식</span>
+          </a>
+        </li>
+        <li class="detail-tap-item">
+          <a href="">
+            <span>실관람평(644)</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="tab-container-list">
+        <li class="tab-item0 active" id="tab0">
+          <div class="tab-chart-wrap">
+            <div class="tab-subtitle-group">
+              <div class="subtitle-box">
+                <h2>관람객수</h2>
+                <span class="viewer-count">3,004</span>
+              </div>
+              <span class="chart-date">2023.00.00기준</span>
+            </div>
+
+            <div class="tab-chart-group">
+              <!-- 왼쪽 -->
+              <div class="gender-rate-box">
+                <div class="chart-height man">
+                    <span class="per"></span>
+                    <span class="per-txt">50</span>
+                </div>
+                <div class="chart-height woman">
+                    <span class="per"></span>
+                    <span class="per-txt">50</span>
+                </div>
+                
+              </div>
+              <!-- 오른쪽 -->
+              <div class="chart-bar-box">
+                <ul class="chart-bar-list">
+                  <li class="chart-bar-item">
+                    <span class="per">
+                      <span class="per-text">8</span>
+                    </span>
+                    <strong>10대</strong>
+                  </li>
+                  <li class="chart-bar-item top">
+                    <span class="per">
+                      <span class="per-text">35</span>
+                    </span>
+                    <strong>20대</strong>
+                  </li>
+                  <li class="chart-bar-item">
+                    <span class="per">
+                      <span class="per-text">26</span>
+                    </span>
+                    <strong>30대</strong>
+                  </li>
+                  <li class="chart-bar-item">
+                    <span class="per">
+                      <span class="per-text">18</span>
+                    </span>
+                    <strong>40대</strong>
+                  </li>
+                  <li class="chart-bar-item">
+                    <span class="per">
+                      <span class="per-text">14</span>
+                    </span>
+                    <strong>50대</strong>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-person-wrap">
+            <h2>감독/등장인물</h2>
+            <ul class="person-list">
+              <li>
+                <a href="">
+                  <div class="person-img-box">
+                    <img src="./assets/images/person1.jpg" alt="미야자키 하야오">
+                  </div>
+                  <strong>미야자키 하야오</strong>
+                  <span>감독</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="person-img-box">
+                    <img src="./assets/images/person2.jpg" alt="스다 마사키">
+                  </div>
+                  <strong>스다 마사키</strong>
+                  <span></span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="person-img-box">
+                    <img src="./assets/images/person3.jpg" alt="기무라 타쿠야">
+                  </div>
+                  <strong>기무라 타쿠야</strong>
+                  <span></span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="person-img-box">
+                    <img src="./assets/images/person4.jpg" alt="아이묭">
+                  </div>
+                  <strong>아이묭</strong>
+                  <span></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-trailer-wrap">
+            <h2 class="tab-trailer" data-count="3">트레일러</h2>
+            <ul class="trailer-list">
+              <li>
+                <a href="">
+                  <div class="video-box">
+                    <video video_mtype="trailer" id="video-trailer-0" preload="none" controlslist="nodownload" playsinline="" webkit-playsinline=""><source src="./assets/videos/trailer-video1.mp4" type="video/mp4">
+                      <p>video를 지원하지 않는 브라우저입니다.</p>
+                    </video>
+
+                    <img src="./assets/images/trailer1.jpg" alt="트레일러 이미지 1">
+                  </div>
+                  <span class="trailer-text">스페셜 예고편</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="video-box">
+                    <video video_mtype="trailer" id="video-trailer-0" preload="none" controlslist="nodownload" playsinline="" webkit-playsinline=""><source src="./assets/videos/trailer-video2.mp4" type="video/mp4">
+                      <p>video를 지원하지 않는 브라우저입니다.</p>
+                    </video>
+
+                    <img src="./assets/images/trailer2.jpg" alt="트레일러 이미지 2">
+                  </div>
+                  <span class="trailer-text">메인 예고편</span>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <div class="video-box">
+                    <video video_mtype="trailer" id="video-trailer-0" preload="none" controlslist="nodownload" playsinline="" webkit-playsinline=""><source src="./assets/videos/trailer-video3.mp4" type="video/mp4">
+                      <p>video를 지원하지 않는 브라우저입니다.</p>
+                    </video>
+
+                    <img src="./assets/images/trailer3.jpg" alt="트레일러 이미지 3">
+                  </div>
+                  <span class="trailer-text">메인 예고편</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="tab-ad-wrap">
+            <div class="ad-box">
+              <a href="">
+                <img src="./assets/images/detail-ad.jpg" alt="광고">
+              </a>
+            </div>
+          </div>
+
+          <div class="tab-steelcut-wrap">
+            <h2 class="steelcut-title" data-count="13">포스터 스틸컷</h2>
+
+            <div class="steelcut-gallery">
+              <ul>
+                <li class="gallery-item photo-box1">
+                  <a href="" class="gallery-inner">
+                    <img src="./assets/images/steelcut1.jpg" alt="">
+                  </a>
+                </li>
+                <li class="gallery-item photo-box2">
+                  <a href="" class="gallery-inner">
+                    <img src="./assets/images/steelcut2.jpg" alt="">
+                  </a>
+                </li>
+                <li class="gallery-item photo-box3">
+                  <a href="" class="gallery-inner">
+                    <img src="./assets/images/steelcut3.jpg" alt="">
+                  </a>
+                </li>
+                <li class="gallery-item photo-box4">
+                  <a href="" class="gallery-inner">
+                    <img src="./assets/images/steelcut4.jpg" alt="">
+                  </a>
+                </li>
+                <li class="gallery-item photo-box5">
+                  <a href="" class="gallery-inner">
+                    <img src="./assets/images/steelcut5.jpg" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        
+        <li class="tab-item1" id="tab1"></li>
+        <li class="tab-item2" id="tab2"></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a href="" class="footer-notice">
+        <span>공지사항</span>
+      </a>
+      <a href="" class="footer-center">
+        <span>고객센터</span>
+      </a>
+      <a href="" class="footer-login">
+        <span>로그인</span>
+      </a>
+      <a href="" class="footer-pc-version">
+        <span>PC버전</span>
+      </a>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="company-group">
+        <div class="company-name">
+          <a href="" class="name-box">
+            <span>CJ CGV (주)</span>
+          </a>
+        </div>
+
+        <div class="company-info">
+          <p>대표이사 : 허민회</p>
+          <p>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</p>
+          <p>통신판매업신고번호 : 2017-서울용산-0662 
+            <a href="">사업자정보확인</a>
+          </p>
+          <p>사업자등록번호 : 104-81-45690</p>
+          <p>개인정보보호 책임자도형구 
+            <span>호스팅사업자 : CJ 올리브네트웍스</span>
+          </p>
+          <p>대표이메일 : cjcgvmaster@cj.net 
+            <span>고객센터 : 1544-1122</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <a href="" class="">
+          <p>이용약관</p>
+        </a>
+        <a href="" class="">
+          <strong>개인정보 처리방침</strong>
+        </a>
+        <a href="" class="">
+          <p>위치기반서비스 이용약관</p>
+        </a>
+        <a href="" class="">
+          <p>법적고지</p>
+        </a>
+      </div>
+    </div>
+
+  </footer>
+</body>
+</html>

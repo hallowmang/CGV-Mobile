@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGV Mobile</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- 스와이퍼 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- 제이쿼리 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script defer src="./assets/js/main.js"></script>
+  <script defer src="./assets/js/data.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <h1 class="logo">
+        <span class="blind">로고</span>
+        <a href="" class="logo-box">
+          <div class="logo-img"></div>
+        </a>
+      </h1>
+
+      <div class="header-icon-wrap">
+        <a href="">
+          <i class="ic-menu"></i>
+        </a>
+        <a href="">
+          <i class="ic-search"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="header-bottom">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item on">
+            <a href="">홈</a>
+          </li>
+          <li class="nav-item">
+            <a href="">이벤트</a>
+          </li>
+          <li class="nav-item">
+            <a href="">무비톡</a>
+          </li>
+          <li class="nav-item">
+            <a href="">패스트오더</a>
+          </li>
+          <li class="nav-item">
+            <a href="">기프트샵</a>
+          </li>
+          <li class="nav-item">
+            <a href="">@CGV</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="menu">
+      <div class="menu-header">
+        <h1 class="logo-wrap">
+          <span class="blind">팝업메뉴 로고</span>
+          <a href="/">
+            <i class="popLogo"></i>
+          </a>
+        </h1>
+        <button class="close">
+          <span class="blind">메뉴창 닫기</span>
+          <i class="closeBtn"></i>
+        </button>
+      </div>
+
+      <div class="popup-content-container">
+        <ul class="popup-nav-list">
+          <li class="popup-nav-item">
+            <a href="">
+              <img src="./assets/images/pop-nav1.png" alt="">
+              <span>예매하기</span>
+            </a>
+          </li>
+          <li class="popup-nav-item">
+            <a href="">
+              <img src="./assets/images/pop-nav2.png" alt="">
+              <span>상영스케줄</span>
+            </a>
+          </li>
+          <li class="popup-nav-item">
+            <a href="">
+              <img src="./assets/images/pop-nav3.png" alt="">
+              <span>패스트오더</span>
+            </a>
+          </li>
+          <li class="popup-nav-item">
+            <a href="">
+              <img src="./assets/images/pop-nav4.png" alt="">
+              <span>모바일티켓</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="swiper popUp-ad">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="" class="ad1">
+                <img src="./assets/images/pop-ad1.jpg" alt="">
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="" class="ad2">
+                <img src="./assets/images/pop-ad2.jpg" alt="">
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="" class="ad3">
+                <img src="./assets/images/pop-ad3.jpg" alt="">
+              </a>
+            </li>
+            <li class="swiper-slide">
+              <a href="" class="ad4">
+                <img src="./assets/images/pop-ad4.jpg" alt="">
+              </a>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="content-container service">
+          <h2 class="content-title">서비스</h2>
+          <ul class="content-list">
+            <li class="content-item">
+              <a href="">
+                <p>통합검색</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>영화</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>영화관 찾기</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>특별관</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>이벤트</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>기프트샵</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>포토플레이</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>클럽서비스</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>MOINTS</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>무비로그</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>My CGV</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="content-container customer">
+          <h2 class="content-title">고객문의</h2>
+          <ul class="content-list">
+            <li class="content-item">
+              <a href="">
+                <p>고객센터</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>상담톡</p>
+              </a>
+            </li>
+            <li class="content-item content-dc">
+              <a href="">
+                <p>할인정보</p>
+              </a>
+            </li>
+            <li class="content-item">
+              <a href="">
+                <p>단체/대관문의</p>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="menu-footer">
+          <ul class="menu-foo-list">
+            <li class="menu-foo-item">
+              <a href="">
+                <i class="insta"></i>
+              </a>
+            </li>
+            <li class="menu-foo-item">
+              <a href="">
+                <i class="facebook"></i>
+              </a>
+            </li>
+            <li class="menu-foo-item">
+              <a href="">
+                <i class="youtube"></i>
+              </a>
+            </li>
+            <li class="menu-foo-item">
+              <a href="">
+                <i class="kakaotalk"></i>
+              </a>
+            </li>
+          </ul>
+
+          <a href="" class="menu-fooLogin">
+            <span>로그인</span>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="visual-group">
+      <div class="swiper visualSwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <a href="" class="visual-link">
+              <img src="./assets/images/visual1.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="" class="visual-link">
+              <img src="./assets/images/visual2.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="" class="visual-link">
+              <img src="./assets/images/visual3.jpg" alt="">
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="" class="visual-link">
+              <img src="./assets/images/visual4.jpg" alt="">
+            </a>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+
+      </div>
+    </div>
+
+    <section class="sc-chart">
+      <h2 class="chart-title">
+        <div class="title-wrap">
+          <div data-container="#container-movie" class="name active">무비차트</div>
+          <div data-container="#container-soon" class="name comingsoon">상영예정</div>
+        </div>
+
+        <div class="all-view">
+          <a href="">전체보기</a>
+        </div>
+      </h2>
+
+      <div class="chart-container">
+        <!-- 무비차트  -->
+        <div id="container-movie" class="container-chart active">
+          <div class="hash-group">
+            <ul class="hash-list">
+              <li data-list="booking" class="hash-item active">
+                <a href="">예매차트</a>
+              </li>
+              <li data-list="current" class="hash-item">
+                <a href="">현재상영작</a>
+              </li>
+              <li data-list="iceCon"  class="hash-item">
+                <a href="">ICECON</a>
+              </li>
+              <li data-list="artHouse" class="hash-item">
+                <a href="">아트하우스</a>
+              </li>
+              <li data-list="cgvOnly" class="hash-item">
+                <a href="">CGV Only</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper content-group">
+            <ul id="booking" class="swiper-wrapper content-list active">
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age ageAll">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+
+                    <img src="./assets/images/movie4.jpg" alt="">
+
+                    <span class="ranking">
+                      <span class="rank-img">
+                        <img src="./assets/images/ranknum1.png" alt="">
+                      </span>
+                      <span class="per">5.7%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  그대들은 어떻게 살 것인가
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age ageAll">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie1.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">5.7%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  크리에이터
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="swiper-slide content-ad">
+                <div class="con-img-wrap">
+                  <a href="">
+                    <img src="./assets/images/chart-ad1.jpg" alt="">
+                  </a>
+                </div>
+                <strong>토레타</strong>
+                <span>CGV무비차트 다음순위를 알려 드립니다.</span>
+              </li>
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age age12">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie2.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">23.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  여름을 향한 터널, 이별의 출구
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">88%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">8.9만</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age ageAll">
+                        <span class="blind">
+                          전체관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie4.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">5.7%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  그대들은 어떻게 살 것인가
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="swiper-slide content-ad">
+                <div class="con-img-wrap">
+                  <a href="">
+                    <img src="./assets/images/chart-ad2.jpg" alt="">
+                  </a>
+                </div>
+                <strong>블루 자이언트</strong>
+                <span>CGV무비차트 다음순위를 알려 드립니다.</span>
+              </li>
+            </ul>
+            <!-- <ul id="current" class="swiper-wrapper content-list">
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age age12">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie1.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">33.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  크리에이터
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age age12">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie2.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">23.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  여름을 향한 터널, 이별의 출구
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">88%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">8.9만</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype1.png" alt="">
+                      </div>
+                      <i class="age age18">
+                        <span class="blind">
+                          18세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie3.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">10.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  익스펜더블 4
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">590</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age ageAll">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie4.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">5.7%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  그대들은 어떻게 살 것인가
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="swiper-slide content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age age12">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie1.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">33.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  크리에이터
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+
+        <!-- 상영예정 -->
+        <div id="container-soon" class="container-soon">
+          <div class="hash-group">
+            <ul class="hash-list">
+              <li data-list="#opening" class="hash-item active">
+                <a href="">개봉일순</a>
+              </li>
+              <li data-list="#booking-rate" class="hash-item">
+                <a href="">예매율순</a>
+              </li>
+            </ul>
+          </div>
+          <div class="content-group">
+            <ul id="opening" class="content-list active">
+
+              <li class="content-ad">
+                <div class="con-img-wrap">
+                  <a href="">
+                    <img src="./assets/images/opening1.jpg" alt="">
+                  </a>
+                </div>
+                <strong>
+                  <오픈 더 도어>
+                </strong>
+                <span>
+                  7년 전, 한인 세탁소 살인 사건 들어봤어?
+                  <br>
+                  목격자도 범인도 없던 그 사건 말이야"
+                </span>
+              </li>
+              <li class="content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age age12">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie5.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">0.4%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  블루 자이언트
+                </p>
+                <div class="accrue-group">
+                  <div class="egg-wrap">
+                    <div class="egg-box">
+                      <span class="egg-state">81%</span>
+                    </div>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num dDay">D-5</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+            </ul>
+            <ul id="booking-rate" class="content-list">
+              <li class="content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age age12">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie1.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">33.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  크리에이터
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age age12">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie2.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">23.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  여름을 향한 터널, 이별의 출구
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">88%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">8.9만</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype1.png" alt="">
+                      </div>
+                      <i class="age age18">
+                        <span class="blind">
+                          18세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie3.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">10.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  익스펜더블 4
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">590</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age ageAll">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie4.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">5.7%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  그대들은 어떻게 살 것인가
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+              <li class="content-item">
+                <div class="movie-poster">
+                  <a href="">
+                    <div class="onlyage-wrap">
+                      <div class="only-box">
+                        <img src="./assets/images/only.png" alt="">
+                      </div>
+                      <div class="screen-type">
+                        <img src="./assets/images/screentype2.png" alt="">
+                      </div>
+                      <i class="age age12">
+                        <span class="blind">
+                          12세관람가
+                        </span>
+                      </i>
+                    </div>
+                    <img src="./assets/images/movie1.jpg" alt="">
+                    <span class="ranking">
+                      <span class="per">33.2%</span>
+                    </span>
+                  </a>
+                </div>
+                <p class="movie-title">
+                  크리에이터
+                </p>
+                <div class="accrue-wrap">
+                  <div class="egg-box">
+                    <span class="egg-state">81%</span>
+                  </div>
+                  <span class="accrue">
+                    <span class="accrue-num">1,743</span>
+                  </span>
+                </div>
+                <div class="reserve-btnBox">
+                  <a href="">지금예매</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section class="sc-menu">
+      <ul class="menu-wrap">
+        <li data-text="MY CGV" class="menu-list">
+          <a href="" class="menu-item">
+            <div class="img-box">
+              <img src="./assets/images/my-cgv.png" alt="">
+            </div>
+          </a>
+        </li>
+        <li data-text="포토플레이" class="menu-list">
+          <a href="" class="menu-item">
+            <div class="img-box">
+              <img src="./assets/images/photo-play.png" alt="">
+            </div>
+          </a>
+        </li>
+        <li data-text="할인정보" class="menu-list">
+          <a href="" class="menu-item">
+            <div class="img-box">
+              <img src="./assets/images/DC-info.png" alt="">
+            </div>
+          </a>
+        </li>
+        <li data-text="CGV스토어" class="menu-list">
+          <a href="" class="menu-item">
+            <div class="img-box">
+              <img src="./assets/images/cgv-store.png" alt="">
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sc-event">
+      <h2 class="event-title">
+        Event
+        <div class="all-view">
+          <a href="">전체보기</a>
+        </div>
+      </h2>
+
+      <div class="banners">
+        <a href="">
+          <img src="./assets/images/eventbanner1.jpg" alt="">
+        </a>
+        <a href="">
+          <img src="./assets/images/eventbanner2.jpg" alt="">
+        </a>
+      </div>
+    </section>
+
+    <article class="ad-wrap">
+      <a href="">
+        <img src="./assets/images/ad1.png" alt="">
+      </a>
+    </article>
+
+    <article class="promotion-wrap">
+      <a href="">
+        <img src="./assets/images/promotion.jpg" alt="">
+      </a>
+    </article>
+
+    <section class="sc-icecon">
+      <div class="icecon-top">
+        <div class="totalview-wrap">
+          <a href="">
+            전체보기
+          </a>
+        </div>
+      </div>
+
+      <div class="swiper iceSwiper">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <a href="">
+              <div class="poster-wrap">
+                <img src="./assets/images/icecon1.jpg" alt="">
+              </div>
+
+              <div class="text-group">
+                <strong>아이유 콘서트 : 더 골든아워</strong>
+                <span>
+                  아이유의 데뷔 15주년 기념
+                  <br>
+                  CGV 절찬상영중
+                </span>
+              </div>
+            </a>
+
+            <div class="reserve-btnBox">
+              <a href="">지금예매</a>
+            </div>
+
+          </li>
+
+          <li class="swiper-slide">
+            <a href="">
+              <div class="poster-wrap">
+                <img src="./assets/images/icecon2.jpg" alt="">
+              </div>
+
+              <div class="text-group">
+                <strong>[사이다경제]금융 교육의 시작, 온 가족 경제독립</strong>
+                <span>
+                  모두가 선한 부자가 되기를 바라는 마음으로 강연을 진행합니다.
+                </span>
+              </div>
+            </a>
+
+            <div class="reserve-btnBox">
+              <a href="">지금예매</a>
+            </div>
+
+          </li>
+
+          <li class="swiper-slide">
+            <a href="">
+              <div class="poster-wrap">
+                <img src="./assets/images/icecon3.jpg" alt="">
+              </div>
+
+              <div class="text-group">
+                <strong>비더원 : 비퍼스트 더 무비</strong>
+                <span>
+                  일본 보이 그룹 비퍼스트 공연실황
+                  <br>
+                  SCREENX 국내 개봉!
+                </span>
+              </div>
+            </a>
+
+            <div class="reserve-btnBox">
+              <a href="">지금예매</a>
+            </div>
+
+          </li>
+
+        </ul>
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+
+    </section>
+
+    <section class="swiper sc-recommend">
+      <h2 class="recommend-title">
+        추천 영화
+      </h2>
+
+      <ul class="swiper-wrapper recommend-list">
+        <li class="swiper-slide recommend-item">
+          <div class="recommend-content">
+            <video src="" data-src="" controlslist="nodownload" preload="none" playsinline="" webkit-playsinline=""
+              class="recommend-video">
+              <source
+                src="https://ad.cgv.co.kr/click/CGV/CGV_201401/mobile@201511_Web_Selection?ads_id=50257&amp;creative_id=74169&amp;click_id=94872&amp;content_series=&amp;event="
+                type="video/mp4">
+            </video>
+            <img src="./assets/images/recommend1.jpg" alt="">
+            <a href="" class="recommend-playBtn">
+              재생
+            </a>
+          </div>
+
+          <a href="" class="recommend-name">
+            <strong>플라워 킬링 문</strong>
+            <span>디카프리오x로버트 드니로</span>
+          </a>
+        </li>
+
+        <li class="swiper-slide recommend-item">
+          <div class="recommend-content">
+            <video src="" data-src="" controlslist="nodownload" preload="none" playsinline="" webkit-playsinline=""
+              class="recommend-video">
+              <source
+                src="https://ad.cgv.co.kr/click/CGV/CGV_201401/mobile@201511_Web_Selection?ads_id=50115&amp;creative_id=73647&amp;click_id=94308&amp;content_series=&amp;event="
+                type="video/mp4">
+            </video>
+            <img src="./assets/images/recommend2.jpg" alt="">
+            <a href="" class="recommend-playBtn">
+              재생
+            </a>
+          </div>
+
+          <a href="" class="recommend-name">
+            <strong>블루 자이언트</strong>
+            <span>이것이 재즈다!</span>
+          </a>
+        </li>
+
+        <li class="swiper-slide recommend-item">
+          <div class="recommend-content">
+            <video src="" data-src="" controlslist="nodownload" preload="none" playsinline="" webkit-playsinline=""
+              class="recommend-video">
+              <source
+                src="https://ad.cgv.co.kr/click/CGV/CGV_201401/mobile@201511_Web_Selection?ads_id=50201&amp;creative_id=74114&amp;click_id=94816&amp;content_series=&amp;event="
+                type="video/mp4">
+            </video>
+            <img src="./assets/images/recommend3.jpg" alt="">
+            <a href="" class="recommend-playBtn">
+              재생
+            </a>
+          </div>
+
+          <a href="" class="recommend-name">
+            <strong>익스펜더블 4</strong>
+            <span>북미 박스 오피스1위!</span>
+          </a>
+        </li>
+
+        <li class="swiper-slide recommend-item">
+          <div class="recommend-content">
+            <video src="" data-src="" controlslist="nodownload" preload="none" playsinline="" webkit-playsinline=""
+              class="recommend-video">
+              <source
+                src="https://ad.cgv.co.kr/click/CGV/CGV_201401/mobile@201511_Web_Selection?ads_id=50115&amp;creative_id=73647&amp;click_id=94308&amp;content_series=&amp;event="
+                type="video/mp4">
+            </video>
+            <img src="./assets/images/recommend2.jpg" alt="">
+            <a href="" class="recommend-playBtn">
+              재생
+            </a>
+          </div>
+
+          <a href="" class="recommend-name">
+            <strong>블루 자이언트</strong>
+            <span>이것이 재즈다!</span>
+          </a>
+        </li>
+
+        <li class="swiper-slide recommend-item">
+          <div class="recommend-content">
+            <video src="" data-src="" controlslist="nodownload" preload="none" playsinline="" webkit-playsinline=""
+              class="recommend-video">
+              <source
+                src="https://ad.cgv.co.kr/click/CGV/CGV_201401/mobile@201511_Web_Selection?ads_id=50201&amp;creative_id=74114&amp;click_id=94816&amp;content_series=&amp;event="
+                type="video/mp4">
+            </video>
+            <img src="./assets/images/recommend3.jpg" alt="">
+            <a href="" class="recommend-playBtn">
+              재생
+            </a>
+          </div>
+
+          <a href="" class="recommend-name">
+            <strong>익스펜더블 4</strong>
+            <span>북미 박스 오피스1위!</span>
+          </a>
+        </li>
+
+        <li class="swiper-slide recommend-item">
+          <div class="recommend-content">
+            <video src="" data-src="" controlslist="nodownload" preload="none" playsinline="" webkit-playsinline=""
+              class="recommend-video">
+              <source
+                src="https://ad.cgv.co.kr/click/CGV/CGV_201401/mobile@201511_Web_Selection?ads_id=50257&amp;creative_id=74169&amp;click_id=94872&amp;content_series=&amp;event="
+                type="video/mp4">
+            </video>
+            <img src="./assets/images/recommend1.jpg" alt="">
+            <a href="" class="recommend-playBtn">
+              재생
+            </a>
+          </div>
+
+          <a href="" class="recommend-name">
+            <strong>플라워 킬링 문</strong>
+            <span>디카프리오x로버트 드니로</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sc-special-cinema">
+      <h2 class="special-title">
+        특별관
+        <div class="all-view">
+          <a href="">전체보기</a>
+        </div>
+      </h2>
+
+      <div class="cinema-info-group">
+        <ul class="cinema-list accordion">
+
+          <li class="cinema-item">
+            <a href="" class="cinema-title active">
+              <strong>SUITE CINEMA</strong>
+              <div class="cinema-hash">
+                <span>호텔 컨셉의 프리미엄관</span>
+              </div>
+            </a>
+
+            <div class="cinema-imgbox">
+              <a href="">
+                <img src="./assets/images/cinema1.png" alt="">
+              </a>
+            </div>
+          </li>
+
+          <li class="cinema-item">
+            <a href="" class="cinema-title">
+              <strong>4DX</strong>
+              <div class="cinema-hash">
+                <span>모션시트</span>
+                <span>오감체험</span>
+              </div>
+            </a>
+
+            <div class="cinema-imgbox">
+              <a href="">
+                <img src="./assets/images/cinema2.png" alt="">
+              </a>
+            </div>
+          </li>
+
+          <li class="cinema-item">
+            <a href="" class="cinema-title">
+              <strong>CINE de CHEF</strong>
+              <div class="cinema-hash">
+                <span>쉐프가 있는 영화관</span>
+
+              </div>
+            </a>
+
+            <div class="cinema-imgbox">
+              <a href="">
+                <img src="./assets/images/cinema3.png" alt="">
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="special-allview">
+          <a href="">
+            특별관 전체보기
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- fix reserveBtn -->
+    <!-- has-topBtn toggleClass추가 -->
+    <div class="fix-reserve">
+      <a href="" class="reserve-fix-img">
+      </a>
+    </div>
+
+    <!-- fix topBtn-->
+    <div class="fix-topBtn">
+      <a href="">
+        <img src="./assets/images/topBtn.png" alt="">
+      </a>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a href="" class="footer-notice">
+        <span>공지사항</span>
+      </a>
+      <a href="" class="footer-center">
+        <span>고객센터</span>
+      </a>
+      <a href="" class="footer-login">
+        <span>로그인</span>
+      </a>
+      <a href="" class="footer-pc-version">
+        <span>PC버전</span>
+      </a>
+    </div>
+
+
+    <div class="footer-bottom">
+      <div class="company-group">
+        <div class="company-name">
+          <a href="" class="name-box">
+            <span>CJ CGV (주)</span>
+          </a>
+        </div>
+
+        <div class="company-info">
+          <p>대표이사 : 허민회</p>
+          <p>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</p>
+          <p>통신판매업신고번호 : 2017-서울용산-0662
+            <a href="">사업자정보확인</a>
+          </p>
+          <p>사업자등록번호 : 104-81-45690</p>
+          <p>개인정보보호 책임자도형구
+            <span>호스팅사업자 : CJ 올리브네트웍스</span>
+          </p>
+          <p>대표이메일 : cjcgvmaster@cj.net
+            <span>고객센터 : 1544-1122</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <a href="" class="">
+          <p>이용약관</p>
+        </a>
+        <a href="" class="">
+          <strong>개인정보 처리방침</strong>
+        </a>
+        <a href="" class="">
+          <p>위치기반서비스 이용약관</p>
+        </a>
+        <a href="" class="">
+          <p>법적고지</p>
+        </a>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
