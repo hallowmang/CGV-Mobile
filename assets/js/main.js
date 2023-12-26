@@ -38,7 +38,8 @@ const popSlide = new Swiper('.popUp-ad',{
 
 /* 추천영화 스와이퍼 */
 const recomSlide = new Swiper(".swiper.sc-recommend", {
-  
+  slidesPerView:"auto",
+  spaceBetween:10,
 });
 
 
@@ -79,12 +80,7 @@ $(function(){
 
     $(this).addClass('active').siblings().removeClass('active')
     $(tabName).addClass('active').siblings().removeClass('active');
-
-    //.container-chart에도 active 클래스 추가/제거
-    // $('.container-chart').addClass('active').siblings().removeClass('active');
   })
-
-
 
 
 /* 아코디언 */
@@ -95,16 +91,11 @@ $(function(){
     if ($(this).hasClass('active')) {
       $('.cinema-title').removeClass('active').siblings('.cinema-imgbox').slideUp();
 
-
     } else {
       $('.cinema-title').removeClass('active').siblings('.cinema-imgbox').slideUp();
       
       $(this).addClass('active').siblings('.cinema-imgbox').slideDown();
-      
     }
-    
-    
-
   })
 
 

@@ -103,7 +103,7 @@
             .active{
               a{
                 color: #222;
-                border-bottoM: 1px solid #000;
+                border-bottom: 1px solid #000;
               }
             }
           }
@@ -983,7 +983,7 @@
   }
 
   .sc-recommend{
-    padding: 0 0 28px;
+    padding: 0 20px 28px;
     &::before{
       content: '';
       display: block;
@@ -1001,7 +1001,7 @@
     }
 
     .recommend-title{
-      padding: 20px 20px 13px;
+      padding: 20px 20px 13px 0px;
       font-weight: 700;
       font-size: 15px;
       color: #222;
@@ -1011,11 +1011,9 @@
 
     .recommend-list{
       display: flex;
-      gap: 10px;
       width: 100%;
       // overflow-x: auto;
       // overflow-y: hidden;
-      padding: 0 20px;
       white-space: nowrap;
       .recommend-item{
         // width: 200px;
@@ -1184,9 +1182,6 @@
             &.active{
               border: 1px solid #4f4f4f;
               border-radius: 8px;
-              // &+.cinema-imgbox{
-              //   display: block;
-              // }
               .cinema-hash span{
                 opacity: 0;
                 transition: opacity 0.3s;
@@ -1195,7 +1190,6 @@
           }
 
           .cinema-imgbox{
-            // display: block;
             display: none;
             position: relative;
             padding: 10px 30px 12px;

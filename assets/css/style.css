@@ -813,7 +813,7 @@ body {
 }
 .main .sc-chart .chart-container .container-chart .hash-group .hash-list .active a {
   color: #222;
-  border-bottoM: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 .main .sc-chart .chart-container .container-chart .content-group {
   overflow-x: scroll;
@@ -1674,7 +1674,7 @@ body {
   background-color: #f2f2f2;
 }
 .main .sc-recommend {
-  padding: 0 0 28px;
+  padding: 0 20px 28px;
 }
 .main .sc-recommend::before {
   content: "";
@@ -1684,7 +1684,7 @@ body {
   background-color: #f1f1f1;
 }
 .main .sc-recommend .recommend-title {
-  padding: 20px 20px 13px;
+  padding: 20px 20px 13px 0px;
   font-weight: 700;
   font-size: 15px;
   color: #222;
@@ -1695,9 +1695,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
   width: 100%;
-  padding: 0 20px;
   white-space: nowrap;
 }
 .main .sc-recommend .recommend-list .recommend-item {
